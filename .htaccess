@@ -1,4 +1,4 @@
 RewriteEngine on
 RewriteBase    /kevinbisneau/
-RewriteCond $1 !^(index\.php|images|robots\.txt)
+RewriteCond $1 !^(index\.php|images|assets|robots\.txt)
 RewriteRule ^(.*)$ /kevinbisneau/index.php/$1 [L]

@@ -1,6 +1,5 @@
 body{
   background-color:#CCCCCC;
-  height:100vh;
 }
 
 .login-form{
@@ -15,7 +14,7 @@ footer{
   margin-left:15px;
   margin-right:15px;
   bottom:0px;
-  position:absolute;
+  position:fixed;
   background-color:#292c2f;
   box-shadow:0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing:border-box;
@@ -251,4 +250,19 @@ a:hover {
 .complete {
   color:#00e600;
   text-shadow: 1px 1px #000000;
+}
+.content-wrap {
+  min-height: 70%;
+  min-height: -webkit-calc(100% - 186px);
+  min-height: -moz-calc(100% - 186px);
+  min-height: calc(100% - 186px);
+  margin-bottom:196px;
+}
+.panel img {
+  height:60px;
+  width:auto;
+  padding: 5px 2px;
+}
+.panel-body {
+  text-align:center;
 }

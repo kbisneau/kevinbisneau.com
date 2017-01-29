@@ -2,3 +2,9 @@ RewriteEngine on
 RewriteBase    /kevinbisneau/
 RewriteCond $1 !^(index\.php|images|assets|robots\.txt)
 RewriteRule ^(.*)$ /kevinbisneau/index.php/$1 [L]
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(ttf|ttc|otf|eot|woff|font.css|css)$">
+   Header set Access-Control-Allow-Origin "*"
+  </FilesMatch>
+</IfModule>

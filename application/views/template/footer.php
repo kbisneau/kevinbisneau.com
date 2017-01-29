@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 
 </div> <!-- content-wrap -->
-<footer>
+<footer class="hidden-xs">
     <div class="row">
         <div class="col-md-4 col-sm-6 hidden-xs hidden-sm footer-navigation">
             <h3><a href="#">KevinBisneau<span>.com </span></a></h3>
@@ -22,8 +22,8 @@ defined('BASEPATH') OR exit('No direct script access allowed'); ?>
         </div>
         <div class="clearfix visible-sm-block"></div>
         <div class="col-md-4 footer-about">
-            <h4>About KevinBisneau.com</h4>
-            <p>This website was set up to demonstrate my skills and abilities with web programming. I am a self-taught full stack developer currently seeking opportunities.</p>
+            <h4 class="hidden-xs">About KevinBisneau.com</h4>
+            <p class="hidden-xs">This website was set up to demonstrate my skills and abilities with web programming. I am a self-taught full stack developer currently seeking opportunities.</p>
             <div class="social-links social-icons"><a href="#"><span class="fa fa-facebook"></span></a><a href="#"><span class="fa fa-linkedin"></span></a><a href="#"><span class="fa fa-github"></span></a></div>
         </div>
     </div>

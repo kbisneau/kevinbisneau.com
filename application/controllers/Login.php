@@ -24,8 +24,9 @@ class login extends CI_Controller
           if ($this->form_validation->run() == FALSE)
           {
                //validation fails
+               $data['title']='Login';
                $this->load->view('template/header');
-               $this->load->view('login_view');
+               $this->load->view('pages/login_view');
                $this->load->view('template/footer');
           }
           else

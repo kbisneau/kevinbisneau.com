@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "basics": {
+    "name": "Kevin Bisneau",
+    "label": "",
+    "picture": "",
+    "email": "contact@kevinbisneau.com",
+    "phone": "315-404-3444",
+    "degree": "Associates Degree of Occupational Studies",
+    "website": "http://www.kevinbisneau.com",
+    "summary": "To obtain a position where i can apply my technical knowledge and experience. This position should test my skills to help me gain more knowledge and experience, while being a valuable asset to the company. ",
+    "highlights": "bullet1, bullet2, bullet3",
+    "location": {
+      "address": "415 Quentin Rd",
+      "postalCode": "13502",
+      "city": "Utica",
+      "countryCode": "USA",
+      "region": "NY"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "kbisneau",
+        "url": "https://github.com/kbisneau"
+    }
+    ]
+  },
+  "work": [
+    {
+      "company": "TLB Contracting LLC",
+      "position": "Project Manager",
+      "website": "http://tlbcontractingllc.com/",
+      "startDate": "11/2011",
+      "endDa    te": "07/16",
+      "summary": "Assist with bidding new work and crew scheduling. Coordinate all meetings and schedules for sub contractors, material delivery, equipment moves/rentals, etc. Create custom rigging plans, cutting and welding hazard plans, shop drawings, and reports. Work closely with project managers and engineering to work through inconsistencies and field issues. Primary point of contact for multiple crews, project managers, and engineers. Prepare and submit closeout documention. Prepare and submit all regulatory paperwork.",
+      "highlights": [
+        "oversee, manage, etc"
+      ]
+    }
+  ],
+  "additionalWork": [
+    {
+      "company": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        ""
+      ]
+    }
+  ],
+  "workLabel": "",
+  "additionalWorkLabel": "",
+  "education": [
+    {
+      "institution": "Mohawk Valley Community College",
+      "area": "Associates of Occupational Studies",
+      "studyType": "",
+      "startDate": "2003-01-01",
+      "endDate": "2007-06-14",
+      "gpa": "",
+      "courses": [
+        "Small Business Management, Technical Math, Machine Shop"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "",
+      "publisher": "",
+      "releaseDate": "",
+      "website": "",
+      "summary": "",
+      "isbn": ""
+    }
+  ],
+  "additionalPublications": [
+    {
+      "name": "",
+      "publisher": "",
+      "releaseDate": "",
+      "website": "",
+      "summary": "",
+      "isbn": ""
+    }
+  ],
+  "publicationsLabel": "",
+  "additionalPublicationsLabel": "",
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "",
+      "keywords": [
+        "PHP, Javascript, HTML, CSS"
+      ]
+  }
+  ]
+}

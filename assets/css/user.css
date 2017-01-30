@@ -242,11 +242,15 @@ img.dropdown-image{
   text-decoration: line-through;
   color:grey;
 }
+
 a:hover {
+  /*
   color:#5383d3;
   font-weight:700;
+  */
   text-decoration:none;
 }
+
 .complete {
   color:#00e600;
   text-shadow: 1px 1px #000000;
@@ -265,4 +269,52 @@ a:hover {
 }
 .panel-body {
   text-align:center;
+}
+
+.page-fold:before {
+    content: "";
+    position: absolute;
+    top:0px;
+    right:0px;
+    border-style: solid;
+    border-color:#999999 #FFF;
+    transition: border-width 0.4s ease-in-out;
+    border-width: 0px 26px 26px 0px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+  /* Firefox 3.0 damage limitation */
+    display: block; width: 0;
+}
+
+.page-fold {
+  position: relative;
+  /*
+  padding: 1em 1.5em;
+  margin: 2em auto;
+*/
+  overflow: hidden;
+  box-shadow: -1px 2px 4px rgba(0, 0, 0, .5);
+  border-radius:5px;
+}
+.page-fold:hover {
+    background-color:#666666;
+}
+.page-fold:hover:before, .page-fold:hover:after {
+  transition: border-width 0.9s ease-in-out;
+  border-width: 0px 80px 80px 0px;
+    color: #fff;
+}
+
+.resume-pagelist {
+    background-color: #cccccc;
+    height:280px;
+    text-align:center;
+}
+
+.resume-pagelist h4 {
+    position:absolute;
+    bottom:0px;
+    lefT:0px;
+    right:0px;
 }

@@ -28,6 +28,15 @@ public function index() {
 
 	public function test() {
 		$data['title']='test';
+		$this->load->library('email');
+
+		$this->email->from('test@kevinbisneau.com', 'KevinBisneau.com');
+		$this->email->to('anticide@gmail.com');
+
+		$this->email->subject('Email Test');
+		$this->email->message('Testing the email class.');
+
+		$this->email->send();
 		$this->load->view('template/test', $data);
 	}
 	public function logout() {
@@ -46,7 +55,6 @@ public function index() {
 		 $data['username']=$this->session->username;
 		 $data['badges']=$this->badges_model->badges($this->session->username);
 		 $this->load->view('template/header', $data);
-		 $this->load->view('pages/resume', $data);
 		 $this->load->view('template/footer', $data);
 	 } else { //not logged in
 		 $data['title']='Login';

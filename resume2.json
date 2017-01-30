@@ -1,0 +1,93 @@
+{
+  "basics": {
+    "name": "Kevin Bisneau",
+    "label": "Full Stack Developer",
+    "picture": "",
+    "email": "contact@kevinbisneau.com",
+    "phone": "(315) 404-3444",
+    "website": "http://kevinbisneau.com",
+    "summary": "To obtain a position where i can apply my technical knowledge and experience. This position should test my skills to help me gain more knowledge and experience, while being a valuable asset to the company.",
+    "location": {
+      "address": "415 Quentin Rd",
+      "postalCode": "13502",
+      "city": "Utica",
+      "countryCode": "US",
+      "region": "New York"
+    },
+    "profiles": [{
+      "network": "LinkedIn",
+      "username": "kevinbisneau",
+      "url": "https://www.linkedin.com/in/kevinbisneau"
+    }]
+  },
+  "work": [{
+    "company": "TLB Contracting LLC",
+    "position": "Project Manager",
+    "website": "http://tlbcontractingllc.com",
+    "startDate": "2011-11-01",
+    "endDate": "2016-08-01",
+    "summary": "Assist with bidding new work and crew scheduling. Coordinate all meetings and schedules for sub contractors, material delivery, equipment moves/rentals, etc. Create custom rigging plans, cutting and welding hazard plans, shop drawings, and reports. Work closely with project managers and engineering to work through inconsistencies and field issues. Primary point of contact for multiple crews, project managers, and engineers. Prepare and submit closeout documention. Prepare and submit all regulatory paperwork.",
+    "highlights": [
+      "Worked way up from tower climber / welder to project manager co-owner"
+    ]
+  }],
+  "volunteer": [{
+    "organization": "Organization",
+    "position": "Volunteer",
+    "website": "http://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Description...",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+    ]
+  }],
+  "education": [{
+    "institution": "Mohawk Valley Community College",
+    "area": "Welding Technology",
+    "studyType": "Associates of Occupational Studies",
+    "startDate": "2003-01-01",
+    "endDate": "2007-06-14",
+    "gpa": "4.0",
+    "courses": [
+      "DB1101 - Basic SQL"
+    ]
+  }],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "website": "http://publication.com",
+    "summary": "Description..."
+  }],
+  "skills": [{
+    "name": "Web Development",
+    "level": "Master",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "Javascript"
+    ]
+  }],
+  "languages": [{
+    "name": "English",
+    "level": "Native speaker"
+  }],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference..."
+  }]
+}

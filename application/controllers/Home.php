@@ -55,6 +55,7 @@ public function index() {
 		 $data['username']=$this->session->username;
 		 $data['badges']=$this->badges_model->badges($this->session->username);
 		 $this->load->view('template/header', $data);
+		 $this->load->view('pages/pages', $data);
 		 $this->load->view('template/footer', $data);
 	 } else { //not logged in
 		 $data['title']='Login';
